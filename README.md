@@ -18,10 +18,10 @@ Obre el Símbol del sistema (cmd) o el PowerShell a Windows, o la Terminal a Mac
 4. Instal·lar Pygame:
 Aquest joc necessita la llibreria gràfica pygame per funcionar. Escriu la següent comanda a la terminal i prem Enter:
 
-pip install pygame
-(Nota: A Mac o Linux, pot ser que necessitis escriure pip3 install pygame).
+   pip install pygame
+   (Nota: A Mac o Linux, pot ser que necessitis escriure pip3 install pygame).
 
 6. Executar el joc:
 Un cop s'hagi instal·lat Pygame, pots iniciar el joc amb la següent comanda:
 
-python prail.py
+   python prail.py
