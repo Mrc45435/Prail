@@ -21,7 +21,8 @@ Aquest joc necessita la llibreria gràfica pygame per funcionar. Escriu la segü
    pip install pygame
    (Nota: A Mac o Linux, pot ser que necessitis escriure pip3 install pygame).
 
-6. Executar el joc:
+5. Executar el joc:
 Un cop s'hagi instal·lat Pygame, pots iniciar el joc amb la següent comanda:
 
    python prail.py
+   (Nota: A Mac o Linux, prova amb python3 prail.py).
