@@ -5149,7 +5149,7 @@ def pantalla_credits():
 
     missatges = [
         "P . R . A . I . L .",
-        "PROGRAMACIÓ: Marc Pérez Caravajal",
+        "PROGRAMACIÓ: Marc Pérez Carvajal",
         "GRÀFICS: Marc Pérez Carvajal amb LibreSprite",
         "SO:                      ",
         "   MÚSICA: looplicator i Romariogrande",
