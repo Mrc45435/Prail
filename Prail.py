@@ -876,7 +876,7 @@ def nivell_tutorial(reiniciar=False, pos_x_inici=100):
         elif tecles[K_d]:
             jugador_rect.x += 5
             mirant_dreta = True
-        if (tecles[K_w]) and en_terra:
+        if (tecles[K_SPACE]) and en_terra:
             vel_y = FORCA_SALT
             en_terra = False
 
@@ -1049,7 +1049,7 @@ def nivell_tutorial2(reiniciar=False, pos_x_inici=50):
                 elif dx < 0:
                     jugador_rect.left = prestatg.right
 
-        if (tecles[K_w]) and en_terra:
+        if (tecles[K_SPACE]) and en_terra:
             vel_y = FORCA_SALT
             en_terra = False
 
@@ -1246,7 +1246,7 @@ def nivell_tutorial3(reiniciar=False, pos_x_inici=50):
             elif tecles[K_d]:
                 jugador_rect.x += 5
                 mirant_dreta = True
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
 
@@ -1412,7 +1412,7 @@ def nivell_tutorial4(reiniciar=False, pos_x_inici=50):
             elif tecles[K_d] or tecles[K_RIGHT]:
                 jugador_rect.x += 5
                 mirant_dreta = True
-            if (tecles[K_w] or tecles[K_SPACE]) and en_terra:
+            if (tecles[K_SPACE]) and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
 
@@ -1647,7 +1647,7 @@ def nivell_tutorial5(reiniciar=False, pos_x_inici=50):
                     elif dx < 0:
                         jugador_rect.left = mur.right
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
             if jugador_rect.top <= LIMIT_SOSTRE:
@@ -1921,7 +1921,7 @@ def nivell1_pantalla1(reiniciar=False, pos_x_inici=50):
                     elif dx < 0:
                         jugador_rect.left = mur.right
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
 
@@ -2189,7 +2189,7 @@ def nivell1_pantalla2(reiniciar=False, pos_x_inici=50):
                     elif dx < 0:
                         jugador_rect.left = mur.right
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
 
@@ -2503,7 +2503,7 @@ def nivell1_pantalla3(reiniciar=False, pos_x_inici=50):
                     elif dx < 0:
                         jugador_rect.left = mur.right
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
             if jugador_rect.top <= LIMIT_SOSTRE:
@@ -2795,7 +2795,7 @@ def nivell1_pantalla4(reiniciar=False, pos_x_inici=50):
                     elif dx < 0:
                         jugador_rect.left = mur.right
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
 
@@ -3046,7 +3046,7 @@ def nivell2_pantalla1(reiniciar=False, pos_x_inici=50):
             if jugador_rect.right >= LIMIT_DRETA:
                 jugador_rect.right = LIMIT_DRETA
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
             if jugador_rect.top <= LIMIT_SOSTRE:
@@ -3345,7 +3345,7 @@ def nivell2_pantalla2(reiniciar=False, pos_x_inici=50):
                     elif dx < 0:
                         jugador_rect.left = mur.right
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
             if jugador_rect.top <= LIMIT_SOSTRE:
@@ -3626,7 +3626,7 @@ def nivell2_pantalla3(reiniciar=False, pos_x_inici=50):
             if jugador_rect.right >= LIMIT_DRETA:
                 jugador_rect.right = LIMIT_DRETA
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
             if jugador_rect.top <= LIMIT_SOSTRE:
@@ -3917,7 +3917,7 @@ def nivell2_pantalla4(reiniciar=False, pos_x_inici=50):
                     elif dx < 0:
                         jugador_rect.left = mur.right
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
             if jugador_rect.top <= LIMIT_SOSTRE:
@@ -4205,7 +4205,7 @@ def nivell3_pantalla1(reiniciar=False, pos_x_inici=50):
                     elif dx < 0:
                         jugador_rect.left = mur.right
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
 
@@ -4541,7 +4541,7 @@ def nivell3_pantalla2(reiniciar=False, pos_x_inici=50):
                     elif dx < 0:
                         jugador_rect.left = mur.right
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
 
@@ -4792,7 +4792,7 @@ def nivell3_pantalla3(reiniciar=False, pos_x_inici=50):
             if jugador_rect.right >= LIMIT_DRETA:
                 jugador_rect.right = LIMIT_DRETA
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
             if jugador_rect.top <= LIMIT_SOSTRE:
@@ -5062,7 +5062,7 @@ def nivell3_pantalla4(reiniciar=False, pos_x_inici=50):
                     elif dx < 0:
                         jugador_rect.left = mur.right
 
-            if tecles[K_w] and en_terra:
+            if tecles[K_SPACE] and en_terra:
                 vel_y = FORCA_SALT
                 en_terra = False
 
